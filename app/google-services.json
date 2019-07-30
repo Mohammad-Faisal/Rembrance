@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "786873646660",
+    "firebase_url": "https://rembrance.firebaseio.com",
+    "project_id": "rembrance",
+    "storage_bucket": "rembrance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786873646660:android:f82b6254caacc7b3",
+        "android_client_info": {
+          "package_name": "com.example.rembrance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786873646660-o75a06mss0eun8v9885pr0o0ca4mts7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rembrance",
+            "certificate_hash": "c9f676d663792f94603844023aa889963af6a2b6"
+          }
+        },
+        {
+          "client_id": "786873646660-gb6g8pp8erltn0e36hnclibtafi1iji7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFfXfQkxsCYcaOM1wf39l1lNpgJSJ4T8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786873646660-gb6g8pp8erltn0e36hnclibtafi1iji7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

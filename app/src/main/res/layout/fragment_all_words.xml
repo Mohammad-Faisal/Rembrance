@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              tools:context=".AllWordsFragment">
+
+
+
+    <!--<com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager-->
+            <!--android:id="@+id/viewpager_alllwords_words"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="400dp"-->
+            <!--android:layout_marginTop="100dp"-->
+            <!--app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"-->
+
+            <!--app:icvp_center_page_scale_offset="30dp"-->
+            <!--app:icvp_max_page_scale="0.8"-->
+            <!--app:icvp_medium_scaled="true"-->
+            <!--app:icvp_min_page_scale="0.5"-->
+            <!--app:icvp_min_page_scale_offset="5dp"-->
+            <!--app:icvp_scroll_duration="500"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_weight="1"
+            android:id="@+id/recycler_words"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_word"
+            />
+
+
+
+
+
+    <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/btn_allwords_addnew"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/round_button_background"
+            android:text="Add New Word"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+</LinearLayout>
